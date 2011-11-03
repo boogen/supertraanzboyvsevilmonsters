@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <!-- Output SWF options -->
+  <output>
+    <movie disabled="False" />
+    <movie input="" />
+    <movie path="bin\Traanzbirthday.swf" />
+    <movie fps="30" />
+    <movie width="960" />
+    <movie height="638" />
+    <movie version="10" />
+    <movie background="#FFFFFF" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option accessible="False" />
+    <option allowSourcePathOverlap="False" />
+    <option benchmark="False" />
+    <option es="False" />
+    <option locale="" />
+    <option loadConfig="" />
+    <option optimize="True" />
+    <option showActionScriptWarnings="True" />
+    <option showBindingWarnings="True" />
+    <option showInvalidCSS="True" />
+    <option showDeprecationWarnings="True" />
+    <option showUnusedTypeSelectorWarnings="True" />
+    <option strict="True" />
+    <option useNetwork="True" />
+    <option useResourceBundleMetadata="True" />
+    <option warnings="True" />
+    <option verboseStackTraces="False" />
+    <option linkReport="" />
+    <option loadExterns="" />
+    <option staticLinkRSL="True" />
+    <option additional="" />
+    <option compilerConstants="" />
+    <option customSDK="" />
+  </build>
+  <!-- SWC Include Libraries -->
+  <includeLibraries>
+    <!-- example: <element path="..." /> -->
+  </includeLibraries>
+  <!-- SWC Libraries -->
+  <libraryPaths>
+    <!-- example: <element path="..." /> -->
+  </libraryPaths>
+  <!-- External Libraries -->
+  <externalLibraryPaths>
+    <!-- example: <element path="..." /> -->
+  </externalLibraryPaths>
+  <!-- Runtime Shared Libraries -->
+  <rslPaths>
+    <!-- example: <element path="..." /> -->
+  </rslPaths>
+  <!-- Intrinsic Libraries -->
+  <intrinsics>
+    <!-- example: <element path="..." /> -->
+  </intrinsics>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <asset path="assets\hero_standing.png" />
+    <asset path="assets\hero_running_2.png" />
+    <asset path="assets\hero_running_1.png" />
+    <asset path="assets\hero_jumping.png" />
+    <asset path="assets\platform1.png" />
+    <asset path="assets\platform2.png" />
+    <asset path="assets\platform3.png" />
+    <asset path="assets\platform10.png" />
+    <asset path="assets\platform11.png" />
+    <asset path="assets\platform12.png" />
+    <asset path="assets\platform4.png" />
+    <asset path="assets\platform5.png" />
+    <asset path="assets\platform6.png" />
+    <asset path="assets\platform7.png" />
+    <asset path="assets\platform8.png" />
+    <asset path="assets\platform9.png" />
+    <asset path="assets\background.png" />
+    <asset path="assets\monster_1.png" />
+    <asset path="assets\monster_2.png" />
+    <asset path="assets\monster_3.png" />
+    <asset path="assets\monster_4.png" />
+    <asset path="assets\monster_5.png" />
+    <asset path="assets\monster_6.png" />
+    <asset path="assets\monster_8.png" />
+    <asset path="assets\monster_9.png" />
+    <asset path="assets\monster_7.png" />
+    <asset path="assets\monster_jumping.png" />
+    <asset path="assets\bullet.png" />
+    <asset path="assets\handgun_left.png" />
+    <asset path="assets\box.png" />
+    <asset path="assets\Digitek.ttf" />
+    <asset path="assets\shot.mp3" />
+    <asset path="assets\point.mp3" />
+    <asset path="assets\jump.mp3" />
+    <asset path="assets\potatogun_left.png" />
+    <asset path="assets\ArcadeClassic.ttf" />
+    <asset path="assets\fire1.png" />
+    <asset path="assets\fire2.png" />
+    <asset path="assets\fire3.png" />
+    <asset path="assets\fire4.png" />
+    <asset path="assets\twohandguns.png" />
+    <asset path="assets\machinegun_left.png" />
+    <asset path="assets\menu.png" />
+    <asset path="assets\gameover.png" />
+    <asset path="assets\alphbeta.ttf" />
+    <asset path="assets\boss_1.png" />
+    <asset path="assets\boss_2.png" />
+    <asset path="assets\boss_3.png" />
+    <asset path="assets\boss_4.png" />
+    <asset path="assets\boss_5.png" />
+    <asset path="assets\boss_6.png" />
+    <asset path="assets\boss_7.png" />
+    <asset path="assets\boss_jumping.png" />
+  </library>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="src\Main.as" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <!-- example: <hidden path="..." /> -->
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="Default" />
+  </options>
+</project>
